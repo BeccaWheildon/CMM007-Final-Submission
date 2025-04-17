@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login - Becca's Books</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!-- Taken from boxicons.com to get icons -->
+    <link rel="stylesheet" href="../Bootstrap.css">
+    <link href="Login Page Styling.css" rel="stylesheet">
+</head>
+<body class="text-centre">
+            <form id="loginForm" method="post" action="Login.php" class="form-signin">
+                <div class="text-center">
+                    <img class="mb-4" src="../Assets/stirling_council_logo.png" alt="Stirling Council Logo" width="72" height="72">
+                </div>
+                <h2 class="h3 mb-3 font-weight-semibold text-center">Please Sign In</h2>
+                <div class="d-flex align-items-center">
+                    <i class="bx bxs-user-circle me-2"></i> <!-- Taken from boxicon website --> 
+                    <input type="email" id="email" name="email" placeholder="Email Address" class="form-control">   
+                </div>
+                <div class="d-flex align-items-center">
+                    <i class='bx bxs-lock me-2'></i> <!-- Taken from boxicon website --> 
+                    <input type="password" id="password" name="password" placeholder="Password" class="form-control">     
+                </div><br>
+                <div class="mb-3 text-center">
+                    <select name="userType" class="form-select form-select-sm" aria-label=".form-select-sm example" id="userType">
+                        <option value="User" selected>User</option>
+                        <option value="Admin">Admin</option>
+                    </select>
+                </div>
+                <button id="loginButton" type="submit" name="submit" class="btn btn-lg btn-primary">Sign In</button>
+                <p class="mt-5 mb-3 text-muted">© Stirling Council 2025 - 2028</p>
+                <div id="error_messages"></div>
+            </form>
+         
+        </div>
+    </div>
+</body>
+</html>

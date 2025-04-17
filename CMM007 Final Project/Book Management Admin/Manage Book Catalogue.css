@@ -1,0 +1,4 @@
+table.dataTable td {
+    white-space: normal;
+    word-wrap: break-word;
+}

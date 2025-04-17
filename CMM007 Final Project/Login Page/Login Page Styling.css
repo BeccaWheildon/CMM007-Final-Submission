@@ -1,0 +1,42 @@
+.form_sizing {
+    width: 250px;
+    margin:0 auto;
+}
+
+img {
+    align-items: center;
+}
+
+i {
+    float: left;
+    padding-right: 10px;
+}
+
+body {
+    background-color: #dde9d7;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.btn{
+    background-color: #00855A;
+    color: white;
+    width: 100%;
+    border-color: black;
+    border-width: 1px;
+}
+
+.btn:hover {
+    background-color: #4B0082;
+    border-color: black;
+    border-width: 1px;
+}
